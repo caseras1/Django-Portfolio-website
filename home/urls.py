@@ -30,6 +30,6 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('project', views.project, name='project'),
     path('#contact', views.contact, name='contact'),
-    # path('skills', views.skills, name='skills'),
-    # path('contact', views.contact, name='contact'),
+    #  path('skills', views.skills, name='skills'),
+    #  path('contact', views.contact, name='contact'),
 ]

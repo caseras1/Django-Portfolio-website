@@ -30,3 +30,6 @@ def contact(request):
         contact.save()
     return render(request, 'home.html')
 
+
+
+
