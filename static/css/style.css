@@ -85,8 +85,7 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 150px;
 }
 
 #header .profile h1 {
@@ -228,7 +227,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("/static/img/setup_wallpaper.webp") top center;
   background-size: cover;
 }
 

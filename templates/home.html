@@ -6,13 +6,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Developer Burhan</title>
+  <title>Portfolio Cas</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{% static 'img/favicon.png' %}" rel="icon">
-  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link
@@ -46,18 +45,11 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="{% static 'img/profile-img.jpg' %}" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Mohammad Burhan</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="#" class="github"><i class="bx bxl-github"></i></a>
-          <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-
-
+        <img src="/static/img/TheDOC-Portretten.jpg" alt="Bedrijfsfoto" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Cas Eras</a></h1>
+        <div class="social-links mt-3 text-center">        
+          <a href="https://www.linkedin.com/in/cas-eras-52336b224/" target="blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/caseras1" target="blank" class="github"><i class="bx bxl-github"></i></a>
 
         </div>
 
@@ -68,8 +60,8 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -80,11 +72,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Mohammad Burhan</h1>
-      <p>I'm <span class="typed"
-          data-typed-items="Designer, Developer, Freelancer, Full-Stack Developer, Python Developer."></span></p>
-    </div>
-
+      <h1>Cas Eras</h1>
   </section><!-- End Hero -->
 
 
@@ -98,10 +86,26 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I am a developer with experience in Python and Odoo, as well as a range of other skills including full
-            stack development, JavaScript, Bootstrap, and Figma. I have completed several individual projects and am
-            always looking for new opportunities and challenges to improve my skills and advance my career. I am
-            currently seeking new opportunities and am excited to tackle challenging problems and grow as a developer.
+          <p>
+            Hey, ik ben Cas, een 22-jarige Software Developer in opleiding uit Son en Breugel. 
+            Mijn fascinatie voor software begon in 2021 toen ik voor het eerst in aanraking kwam met programmeren. 
+            Mijn eerste stap was in Python, waar ik eenvoudige, maar leuke spellen ontwikkelde en tegen de computer speelde. 
+            De ervaring was zo inspirerend dat ik besloot me verder te verdiepen in dit boeiende vakgebied.
+
+            <br><br>
+
+            Momenteel volg ik de Software Developer MBO 4-opleiding aan het Willem 1 College in Veghel, 
+            waar ik mijn vaardigheden aanscherp en mijn passie voor softwareontwikkeling verder ontwikkel. 
+            Tijdens mijn tweede jaar heb ik een stage gelopen bij The DOC in Weert, 
+            waar ik mijn kennis heb uitgebreid door te werken met Oracle-software. 
+            Hier heb ik waardevolle ervaring opgedaan met tools zoals SQL, PL/SQL en Apex. 
+            Daarnaast heb ik veel geleerd over teamwork en hoe effectief samen te werken in een teamomgeving.
+            
+            <br><br>
+            
+            Mijn ervaringen hebben mijn enthousiasme voor softwareontwikkeling vergroot en 
+            hebben me geholpen om zowel technische als teamworkvaardigheden te ontwikkelen. 
+            Ik kijk ernaar uit om mijn reis in de wereld van softwareontwikkeling voort te zetten en nieuwe uitdagingen aan te gaan."
           </p>
         </div>
 
@@ -143,7 +147,7 @@
       </div>
     </section><!-- End About Section -->
 
-    {% comment %} <!-- ======= Facts Section ======= -->
+    <!-- ======= Facts Section ======= -->
     <section id="facts" class="facts">
       <div class="container">
 
@@ -203,7 +207,7 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section --> {% endcomment %}
+    </section><!-- End Facts Section --> 
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -392,7 +396,7 @@
           </a>
         </div>
         <div class="text-center my-3">
-          <a class="btn btn-primary download-button col text-center" href="#contact">
+          <a class="btn btn-primary download-button col text-center"  href="#contact">
             <i class="fas fa-download"></i> Contact Me
           </a>
         </div>
@@ -401,43 +405,6 @@
 
       </div>
     </section><!-- End Resume Section -->
-
-
-
-    <div class="cover-letter container mt-5">
-      <!-- Cover letter content goes here -->
-      <div class="cover-letter container mt-5">
-        <div class="row">
-          <div class="col-md-3 text-center">
-            <img src="" alt="Photo" class="img-fluid rounded-circle">
-          </div>
-          <div class="col-md-9">
-            <h1>Cover Letter</h1>
-            <p>Date: {{ today }}</p>
-            <p>To: {{ company }}</p>
-            <p>Dear {{ hiring_manager }},</p>
-            <p>I am writing to express my interest in the Full Stack Developer position at {{ company }}. With my strong
-              background in computer science and experience in web development, I am confident that I would be a
-              valuable asset to your team.</p>
-            <h2>Skills</h2>
-            <ul>
-              <li>1 year of experience as a full stack developer</li>
-              <li>Expertise in Odoo, Python, UX design, and JavaScript</li>
-              <li>Strong problem-solving and communication skills</li>
-            </ul>
-            <h2>Individual Projects</h2>
-            <ul>
-              <li>
-                <strong>Project 1:</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit nisi, ultricies eu mollis a,
-                laoreet et ipsum.
-              </li>
-              <li>
-                <strong>Project 2:</strong>
-                Suspendisse ut efficitur quam. Curabitur non sollicitudin ligula. Aenean sed arcu quis elit aliquam
-                aliquet.
-              </li>
-            </ul>
 
 
           </div>
